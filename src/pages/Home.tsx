@@ -8,7 +8,6 @@ import Work from "../../components/Home/Work";
 import Boxes from "../../components/Home/Boxes";
 import Services from "../../components/Home/Services";
 import Brands from "../../components/Home/Brands";
-import Conversation from "../../components/Home/Conversation";
 import Team from "../../components/Home/Team";
 import { motion } from "motion/react";
 import { cubicBezier } from "motion";
@@ -45,7 +44,7 @@ function Home() {
       <Globe />
       <People />
       <Consult />
-      {/* <Conversation /> */}
+
       <Work />
     </motion.div>
   );
