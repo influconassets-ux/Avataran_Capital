@@ -30,11 +30,15 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
             />
             <p className="font-semibold brandColor text-xl md:text-2xl">
               {" "}
-              <span className="brandColor">Avtaran Capital</span> Advisors is
-              boutique global consulting firm.
+              Avataran Capitals is a boutique global consulting firm offering
+              multi-disciplinary professional services to businesses across the
+              world. We bring together a team of highly qualified, optimistic,
+              and solution-driven professionals who deliver reliable,
+              high-quality support to clients to achieve their strategic goals
+              with confidence.
             </p>
           </div>
-          <div className="flex items-start gap-2 h-fit">
+          {/* <div className="flex items-start gap-2 h-fit">
             <img
               src="/file.png"
               alt="logo"
@@ -49,8 +53,8 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
               who are committed to provide quality service to our clients by
               facilitating their task of achieving their remarkable objectives.
             </p>
-          </div>
-          <div className="flex items-start gap-2">
+          </div> */}
+          {/* <div className="flex items-start gap-2">
             <img
               src="/tick.png"
               alt="logo"
@@ -67,7 +71,7 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
               We provide back-office solutions related to{" "}
               <b className="brandColor">Accounts, Tax and Finance functions.</b>
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="flex items-center justify-center relative w-full md:w-[48%]">
           <img

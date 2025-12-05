@@ -43,16 +43,14 @@ function Choose() {
             <p className="font-normal text-[14px] md:text-[16px]">
               {" "}
               <span className="brandColor block text-[18px] md:text-[24px] font-semibold">
-                Global Reach, Local Expertise
+                Global Presence Backed by Local Intelligence
               </span>{" "}
-              With{" "}
-              <b className="brandColor">
-                20+ strategic locations across India, Europe, North America,
-              </b>{" "}
-              and the Middle East, we bring you unparalleled market access
-              combined with deep local regulatory knowledge. Our presence in{" "}
-              <b className="brandColor">17 prime Indian cities</b> ensures we
-              understand the nuances of doing business across diverse markets.
+              With operations spanning India, Europe, North America, and the
+              Middle East, we offer seamless access to international markets
+              while navigating local regulatory landscapes with precision. Our
+              network across 17 key Indian cities allows us to interpret
+              regional complexities and translate them into strategic advantages
+              for your business worldwide.
             </p>
           </div>
           <div className="flex items-start gap-3 md:gap-4 max-w-[650px]">
@@ -64,13 +62,13 @@ function Choose() {
             <p className="font-normal text-[14px] md:text-[16px]">
               {" "}
               <span className="brandColor block text-[18px] md:text-[24px] font-semibold">
-                Proven Track Record
+                A Reputation Built on Trust and Performance
               </span>
-              Trusted by major international corporations from over{" "}
-              <b className="brandColor">15 countries,</b> including leading
-              companies from the <b className="brandColor">USA and Europe.</b>{" "}
-              When global giants choose us to enter the Indian market, you know
-              you're in capable hands.
+              Leading organisations from more than 15 countries — including
+              major U.S. and European enterprises — rely on us to establish and
+              expand their footprint in India. Their confidence in our expertise
+              demonstrates our ability to deliver consistent, compliant, and
+              long-term results.
             </p>
           </div>
           <div className="flex items-start gap-3 md:gap-4 max-w-[650px]">
@@ -82,13 +80,13 @@ function Choose() {
             <p className="font-normal text-[14px] md:text-[16px]">
               {" "}
               <span className="brandColor block text-[18px] md:text-[24px] font-semibold">
-                Cost-Effective Excellence
+                Enterprise-Grade Solutions, Sensibly Priced
               </span>{" "}
-              Get <b className="brandColor">enterprise-level</b> services
-              without enterprise-level costs. Our{" "}
-              <b className="brandColor">umbrella approach</b> delivers maximum
-              efficiency at optimal investment, giving you more{" "}
-              <b className="brandColor">value</b> for every rupee spent.
+              Our integrated service model eliminates operational silos and
+              unnecessary overheads. You receive the depth and reliability of
+              enterprise-level support—minus the inflated costs. Every
+              investment you make works harder, delivering clarity, compliance,
+              and measurable value.
             </p>
           </div>
         </div>

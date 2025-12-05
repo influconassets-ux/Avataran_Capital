@@ -19,12 +19,13 @@ function Hero1() {
         Welcome to Avataran Capital ,
       </motion.h3>
       <h2 className="font-semibold text-center text-[24px] leading-[130%] tracking-[-1] sm:text-[30px] md:text-[40px] lg:text-5xl text-[#0f6089] relative z-[2]">
-        <SplitText text="Nurturing Your Goal with" />
+        <SplitText text="Insight designed for" />
         <SplitText
-          text="Knowledge and Experience"
+          text="today's investor."
           highlight={["Knowledge", "Experience"]}
         />
       </h2>
+
       <div className="relative min-h-full my-10 md:mt-0 h-fit w-full flex flex-row justify-center items-center gap-0 md:gap-0 z-[2]">
         <div className="flex flex-col h-full gap-[8vh] sm:gap-[14vh] justify-evenly items-center">
           <img

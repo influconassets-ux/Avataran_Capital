@@ -19,9 +19,10 @@ function Hero2() {
         Welcome to Avataran Capital ,
       </motion.h3>
       <h2 className="font-semibold text-center text-[24px] leading-[130%] tracking-[-1] sm:text-[30px] md:text-[40px] lg:text-5xl text-[#0f6089] relative z-[2]">
-        <SplitText text="Chase your Dreams " highlight="Dreams" />
-        <SplitText text="& We'll manage your MONEY" highlight="MONEY" />
+        <SplitText text="Ambition deserves structure." highlight="Dreams" />
+        <SplitText text=" We build it for you" highlight="MONEY" />
       </h2>
+
       <div className="relative min-h-full my-10 md:mt-0 h-fit w-full flex flex-row justify-center items-center gap-0 md:gap-0 z-[2]">
         <img
           src="/hero2.png"

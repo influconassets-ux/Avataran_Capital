@@ -11,10 +11,11 @@ function Conversation() {
       />
       <h2 className="text-[24px] leading-[130%] tracking-[-1] sm:text-[28px] md:text-[36px] lg:text-[40px] font-semibold px-4">
         <SplitText
-          text="Let's Start the Conversation"
+          text="We're Ready When You Are"
           highlight={["Start", "Conversation"]}
         />
       </h2>
+
       <section className="flex flex-col-reverse lg:flex-row justify-center items-center w-full h-fit min-h-[90vh] max-w-[1440px] mx-auto mt-5 gap-8 px-4">
         <section className="w-full lg:w-[50%] h-fit min-h-full flex flex-col justify-center items-start gap-6">
           <motion.img

@@ -1,4 +1,3 @@
-import AnimatePara from "../ui/AnimatePara";
 import SplitText from "../ui/SplitText";
 
 function Team() {
@@ -10,57 +9,77 @@ function Team() {
         className="h-[90vh] max-w-full absolute top-[calc(50%+4vh)] left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
       <h2 className="text-[24px] leading-[130%] tracking-[-1] sm:text-[28px] md:text-[36px] lg:text-[40px] font-semibold text-center">
-      <SplitText text="Meet OUR team of" highlight="OUR" />
-      <SplitText text="extraordinary Experts" highlight="Experts" />
+        <SplitText text="The Minds Steering" highlight="OUR" />
+        <SplitText text="Avataran Capitals" highlight="Experts" />
       </h2>
-      <AnimatePara text='Our Expert People Ready to Help You' className="mt-1" />
+
       <section className="flex flex-wrap items-stretch justify-center gap-4 px-[2vw] md:px-[5vw] mx-auto relative z-30 mt-4">
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/hardik.png" alt="hardik" />
-            <img src="/hardik2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Founder & CEO</p>
+          <img src="/hardik.png" alt="hardik" />
+          <img src="/hardik2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Founder & CEO
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/chetna.png" alt="hardik" />
-            <img src="/chetna2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Non-Executive Director</p>
+          <img src="/chetna.png" alt="hardik" />
+          <img src="/chetna2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Non-Executive Director
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/pritesh.png" alt="hardik" />
-            <img src="/pritesh2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Non-Executive Director</p>
+          <img src="/pritesh.png" alt="hardik" />
+          <img src="/pritesh2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Non-Executive Director
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-row-reverse justify-center items-start relative">
-          <img src="/star.png" alt="Star" className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 absolute -top-[20px] md:-top-[26px] right-[14px] md:right-[24px] lg:right-[30px]" />
-          <img src="/star.png" alt="Star" className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 absolute top-[0px] -right-[6px] md:-right-[10px]" />
-        <img className="w-full" src="/certificate.png" alt="img" />
+          <img
+            src="/star.png"
+            alt="Star"
+            className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 absolute -top-[20px] md:-top-[26px] right-[14px] md:right-[24px] lg:right-[30px]"
+          />
+          <img
+            src="/star.png"
+            alt="Star"
+            className="w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 absolute top-[0px] -right-[6px] md:-right-[10px]"
+          />
+          <img className="w-full" src="/certificate.png" alt="img" />
         </div>
       </section>
       <section className="flex flex-wrap mb-10 items-stretch justify-center gap-4 px-[2vw] md:px-[5vw] mx-auto relative z-30">
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/darshan.png" alt="hardik" />
-            <img src="/darshan2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Non-Executive Director</p>
+          <img src="/darshan.png" alt="hardik" />
+          <img src="/darshan2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Non-Executive Director
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/hemal.png" alt="hardik" />
-            <img src="/hemal2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Director Marketing</p>
+          <img src="/hemal.png" alt="hardik" />
+          <img src="/hemal2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Director Marketing
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/nikhil.png" alt="hardik" />
-            <img src="/nikhil2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Business Head- Canada & SA</p>
+          <img src="/nikhil.png" alt="hardik" />
+          <img src="/nikhil2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Business Head- Canada & SA
+          </p>
         </div>
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
-            <img src="/paresh.png" alt="hardik" />
-            <img src="/paresh2.png" alt="hardik" />
-            <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">Business Head- North America</p>
+          <img src="/paresh.png" alt="hardik" />
+          <img src="/paresh2.png" alt="hardik" />
+          <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
+            Business Head- North America
+          </p>
         </div>
       </section>
-      <button
-        className="px-4 flex items-center gap-1 text-[14px] md:text-[16px] font-semibold py-2.5 md:py-3 text-white rounded-full bg-[#0F6089] hover:shadow-[0_4px_32px_0_rgba(15,96,137,0.5)] duration-300 transition shadow-[0px_4px_4px_rgba(77,77,77,0.25),inset_0px_4px_4px_rgba(255,255,255,0.25)] group z-[2] cursor-pointer"
-      >
+      <button className="px-4 flex items-center gap-1 text-[14px] md:text-[16px] font-semibold py-2.5 md:py-3 text-white rounded-full bg-[#0F6089] hover:shadow-[0_4px_32px_0_rgba(15,96,137,0.5)] duration-300 transition shadow-[0px_4px_4px_rgba(77,77,77,0.25),inset_0px_4px_4px_rgba(255,255,255,0.25)] group z-[2] cursor-pointer">
         Work with us
         <svg
           width="24"

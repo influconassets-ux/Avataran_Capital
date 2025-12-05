@@ -3,6 +3,9 @@ import Story from "../../components/Home/Story";
 import Globe from "../../components/Home/Globe";
 import People from "../../components/Home/People";
 import Consult from "../../components/Home/Consult";
+import WhatWeDo from "../../components/Home/WhatWeDo";
+import Edge from "../../components/Home/Edge";
+import Expertise from "../../components/Home/Expertise";
 import Choose from "../../components/Home/Choose";
 import Work from "../../components/Home/Work";
 import Boxes from "../../components/Home/Boxes";
@@ -36,9 +39,12 @@ function Home() {
     >
       <Hero />
       <Story />
+      <WhatWeDo />
       <Choose />
       <Boxes />
+      <Expertise />
       <Services />
+      <Edge />
       <Brands />
       <Team />
       <Globe />

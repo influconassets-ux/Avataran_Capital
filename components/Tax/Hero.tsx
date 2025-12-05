@@ -13,7 +13,11 @@ function Hero() {
       </h2>
       <div className="w-full h-fit flex flex-col-reverse md:flex-row justify-start relative items-center gap-6 md:gap-3 px-[1vw] sm:px-[4vw] md:px-[5vw] text-start mx-auto">
         <div className="flex -mr-20 flex-col gap-[30px] items-start justify-evenly h-full w-full md:w-[58%]">
-          <p className="mr-20">Income Tax is Direct Taxation refers to a type of taxation where the government levies taxes directly on the income or wealth of individuals or entities, such as corporations, partnerships, and trusts. These taxes are typically progressive, meaning that higher-income individuals or entities pay a higher tax rate compared to those with lower incomes.</p>
+          <p className="mr-20">
+            Complexities of tax law are streamlined through expert guidance,
+            helping individuals and businesses stay compliant, optimize their
+            liabilities, and make informed financial decisions.
+          </p>
           <section className="flex justify-center items-center gap-4 relative z-40">
             <div className="h-fit relative overflow-hidden p-4 heroCard">
               <img src="/star.png" alt="Star" className="w-4 h-4 ml-auto" />
@@ -66,7 +70,11 @@ function Hero() {
           </section>
         </div>
         <div className="flex items-center justify-center relative right-0 w-full md:w-[48%]">
-          <img src="/tax.png" alt="hand" className="w-full max-w-[520px] md:max-w-[66vw] relative z-20" />
+          <img
+            src="/tax.png"
+            alt="hand"
+            className="w-full max-w-[520px] md:max-w-[66vw] relative z-20"
+          />
           <div
             style={{
               position: "absolute",
@@ -74,10 +82,10 @@ function Hero() {
               height: "40%",
               left: "30%",
               top: "52%",
-              borderRadius: '999px',
+              borderRadius: "999px",
               background: "#0F608970",
               boxShadow: "0px 4px 142px 42px #0F6089",
-              transform: 'translate(-50%,-50%)'
+              transform: "translate(-50%,-50%)",
             }}
           ></div>
         </div>

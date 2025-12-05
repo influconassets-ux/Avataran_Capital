@@ -50,9 +50,10 @@ function Services() {
                   <SplitText text="Taxation" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10 pr-[20%]">
-                  Taxation is essential for funding public services.
-                  Understanding the basics helps individuals and businesses make
-                  smarter financial decisions.
+                  Complexities of tax law are streamlined through expert
+                  guidance, helping individuals and businesses stay compliant,
+                  optimize their liabilities, and make informed financial
+                  decisions.
                 </p>
                 <img
                   src="/services/note1.png"
@@ -74,9 +75,9 @@ function Services() {
                   <SplitText text="Foreign Exchange/ RBI" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10 pb-[20%]">
-                  Foreign exchange is crucial for the economy, influencing trade
-                  and investment. Knowing about currency exchange and the
-                  Reserve Bank of India (RBI) .
+                  We guide you through foreign exchange regulations, RBI norms,
+                  and currency-related requirements, ensuring smooth, compliant
+                  cross-border transactions.
                 </p>
                 <img
                   src="/services/note2.png"
@@ -98,12 +99,10 @@ function Services() {
                   <SplitText text="Corporate Advisory" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10 corporate">
-                  Corporate advisory is crucial for navigating complex financial
-                  landscapes. It offers expert advice on mergers, acquisitions,
-                  and strategic planning to boost growth and efficiency. By
-                  utilizing market insights and financial analysis, advisors
-                  help companies make informed decisions aligned with their
-                  long-term goals.
+                  Our corporate advisory solutions support mergers,
+                  acquisitions, restructuring, and strategic planning. With
+                  market insights and financial expertise, we help organisations
+                  make decisions aligned with long-term growth.
                 </p>
                 <img
                   src="/services/female.png"
@@ -125,8 +124,9 @@ function Services() {
                   <SplitText text="Investment Banking" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10 pr-[30%] pb-[20%]">
-                  Investment banking plays a crucial role in finance by helping
-                  companies raise capital and navigate complex transactions.
+                  We assist businesses in raising capital, structuring deals,
+                  and managing high-value transactions, offering end-to-end
+                  financial guidance at every stage.
                 </p>
                 <img
                   src="/footer.png"
@@ -148,9 +148,9 @@ function Services() {
                   <SplitText text="Citizenship/ PR" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10 pr-[30%] pb-[20%]">
-                  Citizenship is a vital aspect of national identity, shaping
-                  the rights and responsibilities of individuals within a
-                  country.
+                  We provide strategic assistance for global citizenship and
+                  residency pathways, helping individuals and families navigate
+                  legal, financial, and documentation requirements with ease.
                 </p>
                 <img
                   src="/services/passport.png"
@@ -172,9 +172,9 @@ function Services() {
                   <SplitText text="Family Office Management" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10">
-                  Taxation is essential for funding public services.
-                  Understanding the basics helps individuals and businesses make
-                  smarter financial decisions.
+                  From wealth preservation to multi-asset planning, we manage
+                  family offices with a focus on governance, tax efficiency, and
+                  long-term financial stewardship.
                 </p>
                 <img
                   src="/services/hand.png"
@@ -196,9 +196,9 @@ function Services() {
                   <SplitText text="Business set-up Services" />
                 </h2>
                 <p className="text-[16px] text-start relative z-10">
-                  Taxation is essential for funding public services.
-                  Understanding the basics helps individuals and businesses make
-                  smarter financial decisions.
+                  We streamline the process of establishing a business—handling
+                  registrations, regulatory approvals, compliance, and
+                  operational structuring to ensure a seamless launch.
                 </p>
                 <img
                   src="/services/files.png"
