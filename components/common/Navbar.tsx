@@ -4,7 +4,7 @@ import MenuToClose from "../ui/MenuToClose";
 import SideMenu from "./SIdeMenu";
 import { useNavigate } from "react-router-dom";
 import PrSvg from "../../src/constant/PrSvg";
-import TaxSvg from "../../src/constant/TaxSvg";
+// import TaxSvg from "../../src/constant/TaxSvg";
 import RbiSvg from "../../src/constant/RbiSvg";
 import AdvisorySvg from "../../src/constant/AdvisorySvg";
 import BankSvg from "../../src/constant/BankSvg";

@@ -1,5 +1,5 @@
 import TiltedCard from "../../src/components/TiltedCard";
-import Svg1 from "../Home/Services/Svg1";
+// import Svg1 from "../Home/Services/Svg1";
 import Svg2 from "../Home/Services/Svg2";
 import Svg3 from "../Home/Services/Svg3";
 import Svg4 from "../Home/Services/Svg4";
