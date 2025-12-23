@@ -16,7 +16,7 @@ function Hero2() {
         transition={{ duration: 1, type: "tween", stiffness: 300 }}
         className="font-normal text-[14px] md:text-[18px] lg:text-[20px] relative z-[2]"
       >
-        Welcome to Avataran Capital ,
+        Welcome to AVTARAN CAPITAL ,
       </motion.h3>
       <h2 className="font-semibold text-center text-[24px] leading-[130%] tracking-[-1] sm:text-[30px] md:text-[40px] lg:text-5xl text-[#0f6089] relative z-[2]">
         <SplitText text="Ambition deserves structure." highlight="Dreams" />

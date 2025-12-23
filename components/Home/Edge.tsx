@@ -10,11 +10,11 @@ const Edge = () => {
         className="h-[90vh] max-w-full absolute top-[65%] left-1/2 -translate-x-1/2 -translate-y-1/2"
       />
       <h2 className="text-[24px] leading-[130%] tracking-[-1] sm:text-[28px] md:text-[36px] lg:text-[40px] font-semibold text-center">
-        <SplitText text="The Avataran Edge" highlight="Consulting" />
+        <SplitText text="The AVTARAN Edge" highlight="Consulting" />
       </h2>
       <div className="w-[90%] lg:w-[70%] mt-2 xl:mt-8">
         <AnimatePara
-          text={`With a strong reputation and years of industry experience, Avataran Capitals offers integrated, transparent, and trustworthy consulting services under one roof. Our goal is to simplify complex processes, reduce operational burdens, and create a smooth pathway for companies to establish and grow their presence in India.`}
+          text={`With a strong reputation and years of industry experience, AVTARAN CAPITAL offers integrated, transparent, and trustworthy consulting services under one roof. Our goal is to simplify complex processes, reduce operational burdens, and create a smooth pathway for companies to establish and grow their presence in India.`}
           className=" mb-3 "
         />
       </div>

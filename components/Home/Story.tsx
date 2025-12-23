@@ -3,7 +3,7 @@ import AnimatePara from "../ui/AnimatePara";
 
 function Story({ noHeading = false }: { noHeading?: boolean }) {
   return (
-    <section className="w-full min-h-[70vh] h-fit py-[4vh] text-center flex flex-col gap-1.5 relative px-4">
+    <section className="w-full min-h-[70vh] h-fit py-[4vh] text-center flex flex-col gap-1.5 relative px-4 md:px-1">
       <img
         src="/grid.png"
         alt="grid"
@@ -20,17 +20,16 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
           />
         </>
       )}
-      <div className="w-[calc(100%-10vw)] h-fit flex flex-col-reverse md:flex-row justify-center items-center gap-6 md:gap-3 px-[1vw] sm:px-[4vw] md:px-[5vw] text-start mx-auto">
-        <div className="flex flex-col gap-4 items-start justify-center w-full md:w-[48%] h-fit">
-          <div className="flex items-start gap-2 h-fit">
+      <div className="w-[calc(100%-8vw)] h-fit flex flex-col-reverse md:flex-row justify-center items-center gap-6 md:gap-3 px-[1vw] sm:px-[4vw] md:px-[0vw] text-start mx-auto md:justify-between">
+        <div className="flex flex-col gap-4 items-start justify-center w-full md:w-[55%] lg:w-[52%] h-fit">
+          <div className="flex items-start justify-between gap-2 h-fit">
             <img
               src="/logo2.png"
               alt="logo"
               className="w-8 h-8 md:w-10 md:h-10 aspect-square"
             />
-            <p className="font-semibold brandColor text-xl md:text-2xl">
-              {" "}
-              Avataran Capitals is a boutique global consulting firm offering
+            <p className="font-normal brandColor text-xl md:text-xl lg:text-2xl ">
+              AVTARAN CAPITAL is a boutique global consulting firm offering
               multi-disciplinary professional services to businesses across the
               world. We bring together a team of highly qualified, optimistic,
               and solution-driven professionals who deliver reliable,
@@ -38,42 +37,8 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
               with confidence.
             </p>
           </div>
-          {/* <div className="flex items-start gap-2 h-fit">
-            <img
-              src="/file.png"
-              alt="logo"
-              className="w-10 h-10 md:w-13 md:h-13 aspect-square"
-            />
-            <p className="font-regular text-[12px] sm:text-[14px] md:text-[16px]">
-              A multi-disciplinary consulting group that offers a gamut of
-              professional services. We are a team of{" "}
-              <b className="brandColor">
-                highly qualified, optimistic, positive professionals
-              </b>{" "}
-              who are committed to provide quality service to our clients by
-              facilitating their task of achieving their remarkable objectives.
-            </p>
-          </div> */}
-          {/* <div className="flex items-start gap-2">
-            <img
-              src="/tick.png"
-              alt="logo"
-              className="w-10 h-10 md:w-13 md:h-13 aspect-square"
-            />
-            <p className="font-regular text-[12px] sm:text-[14px] md:text-[16px]">
-              Avtaran Capital is a well-reputed firm that provides a whole range
-              of integrated services to set up your business in India. Our
-              expertise lies in a thorough understanding of the legal system,
-              and offering services that complement the requirements within the{" "}
-              <b className="brandColor">
-                regulatory, compliance and tax environment in India.
-              </b>{" "}
-              We provide back-office solutions related to{" "}
-              <b className="brandColor">Accounts, Tax and Finance functions.</b>
-            </p>
-          </div> */}
         </div>
-        <div className="flex items-center justify-center relative w-full md:w-[48%]">
+        <div className="flex items-center justify-center relative w-full md:w-[40%]">
           <img
             src="/hand.png"
             alt="hand"
@@ -88,7 +53,7 @@ function Story({ noHeading = false }: { noHeading?: boolean }) {
               top: "52%",
               borderRadius: "999px",
               background: "#0F608970",
-              boxShadow: "0px 4px 142px 42px #0F6089",
+              boxShadow: "0px 4px 142px 17px #0F6089",
               transform: "translate(-50%,-50%)",
             }}
           ></div>

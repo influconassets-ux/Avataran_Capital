@@ -2,11 +2,11 @@ import AnimatePara from "../ui/AnimatePara";
 import SplitText from "../ui/SplitText";
 function Work() {
   return (
-    <section className="relative max-w-[1200px] mx-auto px-4">
+    <section className="relative max-w-[1200px] mx-auto px-4 overflow-hidden">
       <img
         src="/grid.png"
         alt="grid"
-        className="h-[90vh] max-w-full absolute top-[65%] left-1/2 -translate-x-1/2 -translate-y-1/2"
+        className="h-[90vh] max-w-full absolute top-[65%] left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 "
       />
       <div className="flex flex-col gap-2 md:hidden  items-center justify-center">
         <div className="w-full md:w-[60%]">
@@ -19,7 +19,7 @@ function Work() {
             className=" -mb-1 text-center"
           />
           <AnimatePara
-            text={`with Avataran Captial`}
+            text={`with AVTARAN Captial`}
             className="text-center -mb-1 "
           />
         </div>
@@ -35,7 +35,7 @@ function Work() {
             />
           </h2>
           <AnimatePara
-            text={`Step into smarter finance with Avataran Captial`}
+            text={`Step into smarter finance with AVTARAN Captial`}
             className=" -mb-1 text-center"
           />
         </div>

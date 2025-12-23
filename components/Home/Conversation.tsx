@@ -1,5 +1,35 @@
 import SplitText from "../ui/SplitText";
 import { motion } from "motion/react";
+import { MapPin } from "lucide-react";
+
+const indiaPresence = [
+  "Ahmedabad",
+  "Bengaluru",
+  "Chandigarh",
+  "Delhi",
+  "Gurugram",
+  "Hyderabad",
+  "Indore",
+  "Jaipur",
+  "Jammu",
+  "Mumbai",
+  "Noida",
+  "Patna",
+  "Rajkot",
+  "Ranchi",
+  "Surat",
+  "Vishakhapatnam",
+  "Vadodara",
+];
+
+const intPresence = [
+  { name: "UAE - Dubai & Abu Dhabi", image: "/int/Uae.png" },
+  { name: "UK - London", image: "/int/Uk.png" },
+  { name: "Switzerland - Geneva", image: "/int/Switzerland.png" },
+  { name: "Latvia - Riga", image: "/int/Latvia.png" },
+  { name: "Estonia - Tallinn", image: "/int/Estonia.png" },
+  { name: "Canada - Vancouver - Toronto", image: "/int/canada.jpg" },
+];
 
 function Conversation() {
   return (
@@ -16,8 +46,45 @@ function Conversation() {
         />
       </h2>
 
-      <section className="flex flex-col-reverse lg:flex-row justify-center items-center w-full h-fit min-h-[90vh] max-w-[1440px] mx-auto mt-5 gap-8 px-4">
+      <section className="flex flex-col-reverse lg:flex-row justify-center lg:items-start items-center w-full h-fit min-h-[90vh] max-w-[1440px] mx-auto mt-5 gap-8 px-4">
         <section className="w-full lg:w-[50%] h-fit min-h-full flex flex-col justify-center items-start gap-6">
+          <div className="w-full">
+            <h2 className="text-lg sm:text-2xl xl:text-3xl sm:mb-4 mb-2 text-[#0F6089] font-bold">
+              India Presence
+            </h2>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 justify-between">
+              {indiaPresence.map((item, i) => (
+                <p
+                  key={i}
+                  className="text-[#0F6089] text-[12px] sm:text-sm xl:text-lg text-left font-normal flex items-center gap-1"
+                >
+                  <span>
+                    <MapPin className="w-4 h-4 xl:w-5 xl:h-5" />
+                  </span>
+                  {item}
+                </p>
+              ))}
+            </div>
+          </div>
+          <div className="w-full lg:my-3">
+            <h2 className="text-lg sm:text-2xl xl:text-3xl sm:mb-4 mb-2 text-[#0F6089] font-bold">
+              International Presence
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2  gap-4 justify-between">
+              {intPresence.map((item, i) => (
+                <p
+                  key={i}
+                  className="text-[#0F6089] text-[12px] sm:text-sm xl:text-lg text-left font-normal flex items-center gap-1"
+                >
+                  <span className="bg-gray-100 p-1">
+                    <img src={item.image} className="w-8" alt="" />
+                  </span>
+                  {item.name}
+                </p>
+              ))}
+            </div>
+          </div>
+
           <motion.img
             src="/conversation1.png"
             alt="Conversation1"
@@ -191,6 +258,115 @@ function Conversation() {
               />
             </div>
           </div>
+
+          {/* Services Selection */}
+          <div className="w-full mt-8 md:mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+              {/* STARTUPS */}
+              <div className="border rounded-xl p-4 bg-white shadow-[inset_0px_4px_23px_rgba(0,104,255,0.08)]">
+                <h4 className="font-semibold text-[14px] mb-3 uppercase">
+                  Startups
+                </h4>
+
+                <div className="space-y-3 text-[13px]">
+                  {[
+                    "Registration of Company",
+                    "Fund Raising VC/PE/Angel Investors",
+                    "Valuation",
+                    "Virtual CFO Services",
+                  ].map((item, i) => (
+                    <label
+                      key={i}
+                      className="flex items-start gap-3 cursor-pointer select-none"
+                    >
+                      <input type="checkbox" className="custom-checkbox mt-1" />
+                      <span className="text-left">{item}</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+
+              {/* FEMA / RBI */}
+              <div className="border rounded-xl p-4 bg-white shadow-[inset_0px_4px_23px_rgba(0,104,255,0.08)]">
+                <h4 className="font-semibold text-[14px] mb-3 uppercase">
+                  FEMA / RBI
+                </h4>
+
+                <div className="space-y-3 text-[13px]">
+                  {[
+                    "Inward/Outward Remittances",
+                    "FDI/ODI Filings Compliances",
+                    "LRS Filings",
+                  ].map((item, i) => (
+                    <label
+                      key={i}
+                      className="flex items-start gap-3 cursor-pointer select-none"
+                    >
+                      <input type="checkbox" className="custom-checkbox mt-1" />
+                      <span className="text-left">{item}</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+
+              {/* FINANCE */}
+              <div className="border rounded-xl p-4 bg-white shadow-[inset_0px_4px_23px_rgba(0,104,255,0.08)]">
+                <h4 className="font-semibold text-[14px] mb-3 uppercase">
+                  Finance
+                </h4>
+
+                <div className="space-y-3 text-[13px]">
+                  {[
+                    "Bank Loans: Project Finance / OD / CC / Term Loan",
+                    "Fund Raising VC/PE/Angel Investors",
+                  ].map((item, i) => (
+                    <label
+                      key={i}
+                      className="flex items-start gap-3 cursor-pointer select-none"
+                    >
+                      <input type="checkbox" className="custom-checkbox mt-1" />
+                      <span className="text-left">{item}</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+
+              {/* OTHERS */}
+              <div className="border rounded-xl p-4 bg-white shadow-[inset_0px_4px_23px_rgba(0,104,255,0.08)]">
+                <h4 className="font-semibold text-[14px] mb-3 uppercase">
+                  Others
+                </h4>
+
+                <div className="space-y-3 text-[13px]">
+                  {["Family Office Management", "Legal Services"].map(
+                    (item, i) => (
+                      <label
+                        key={i}
+                        className="flex items-start gap-3 cursor-pointer select-none"
+                      >
+                        <input
+                          type="checkbox"
+                          className="custom-checkbox mt-1"
+                        />
+                        <span className="text-left">{item}</span>
+                      </label>
+                    )
+                  )}
+                </div>
+              </div>
+
+              {/* ANY OTHERS */}
+              <div className="border rounded-xl p-4 bg-white shadow-[inset_0px_4px_23px_rgba(0,104,255,0.08)]">
+                <h4 className="font-semibold text-[14px] mb-3">Any Others</h4>
+
+                <label className="flex items-start gap-3 cursor-pointer text-[13px]">
+                  <input type="checkbox" className="custom-checkbox mt-1" />
+                  <span className="text-left">Any Other</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
           <div className="flex justify-center gap-6 md:gap-10 w-full font-semibold text-[14px] md:text-[16px] mt-6 md:mt-8">
             <button className="mt-auto px-4 whitespace-nowrap flex items-center gap-1 text-[16px] font-semibold py-3 text-white rounded-full bg-[#0F6089] hover:shadow-[0_4px_32px_0_rgba(15,96,137,0.5)] duration-300 transition shadow-[0px_4px_4px_rgba(77,77,77,0.25),inset_0px_4px_4px_rgba(255,255,255,0.25)] group z-[2] cursor-pointer">
               Send Message

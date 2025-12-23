@@ -14,7 +14,7 @@ const WhatWeDo = () => {
       </h2>
       <div className="w-[90%] lg:w-[70%] mt-2 xl:mt-8">
         <AnimatePara
-          text={`Avataran Capitals specializes in providing a complete range of consulting, compliance, and business-support services designed to help companies set up, operate, and scale effortlessly in India's fast-growing market.`}
+          text={`AVTARAN CAPITAL specializes in providing a complete range of consulting, compliance, and business-support services designed to help companies set up, operate, and scale effortlessly in India's fast-growing market.`}
           className=" mb-3 "
         />
         <AnimatePara

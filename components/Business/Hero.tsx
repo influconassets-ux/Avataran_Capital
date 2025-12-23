@@ -23,7 +23,7 @@ function Hero() {
             opportunities, and prepare for potential risks.
           </p>
           <p className="">
-            At Avataran Capitals, we provide a comprehensive range of consulting
+            At AVTARAN CAPITAL, we provide a comprehensive range of consulting
             services designed to help our clients make informed decisions,
             improve performance, and confidently move toward their goals.
           </p>

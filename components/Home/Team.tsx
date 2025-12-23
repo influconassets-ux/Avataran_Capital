@@ -10,7 +10,7 @@ function Team() {
       />
       <h2 className="text-[24px] leading-[130%] tracking-[-1] sm:text-[28px] md:text-[36px] lg:text-[40px] font-semibold text-center">
         <SplitText text="The Minds Steering" highlight="OUR" />
-        <SplitText text="Avataran Capitals" highlight="Experts" />
+        <SplitText text="AVTARAN CAPITAL" highlight="Experts" />
       </h2>
 
       <section className="flex flex-wrap items-stretch justify-center gap-4 px-[2vw] md:px-[5vw] mx-auto relative z-30 mt-4">
@@ -57,13 +57,13 @@ function Team() {
             Non-Executive Director
           </p>
         </div>
-        <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
+        {/* <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
           <img src="/hemal.png" alt="hardik" />
           <img src="/hemal2.png" alt="hardik" />
           <p className="brandColor text-center font-semibold text-[16px] md:text-[18px] lg:text-[20px]">
             Director Marketing
           </p>
-        </div>
+        </div> */}
         <div className="w-full sm:w-[48%] lg:w-[24%] flex flex-col gap-2">
           <img src="/nikhil.png" alt="hardik" />
           <img src="/nikhil2.png" alt="hardik" />

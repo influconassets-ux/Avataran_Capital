@@ -38,7 +38,7 @@ function Services() {
       <AnimatePara text="“Where Expertise Meets Excellence, Worldwide”" />
       {!isMobile && (
         <section className="grid min-h-[62vh] grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-[1200px] w-full mx-auto p-4 md:p-6 h-fit">
-          <TiltedCard
+          {/* <TiltedCard
             href="/tax"
             innerClassName=" min-h-full rounded col-span-1 md:col-span-1 lg:col-span-2 md:row-span-1 lg:row-span-2 pb-[8%] md:pb-[16%] md:pr-[8%] p-4"
             className="bg-blue-200 h-auto md:h-[380px] lg:h-[420px] serviceBox relative overflow-hidden"
@@ -62,7 +62,7 @@ function Services() {
                 />
               </>
             }
-          />
+          /> */}
           <TiltedCard
             href="/rbi"
             innerClassName=" p-4 rounded col-span-1 md:col-span-1 lg:col-span-2 md:row-span-1 lg:row-span-2 pb-[8%] md:pb-[18%]"

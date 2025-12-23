@@ -53,8 +53,8 @@ function Navbar() {
     }
   }, [isOpen]);
   return (
-    <nav className="w-full px-[2vw] pt-[20px] fixed top-0 z-50 h-[100px]">
-      <div className=" px-[10px] flex justify-between items-center shadow-md navbar h-full relative z-50">
+    <nav className="w-full px-[2vw] pt-[20px]  top-0 z-50 h-[100px] bg-[#f8f8f8]">
+      <div className=" px-[10px]  flex justify-between items-center h-full relative z-50">
         <img
           src="/logo.png"
           alt="Logo"
@@ -126,11 +126,11 @@ function Navbar() {
                 whileHover="hover"
                 animate="rest"
                 transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                className="list-none link3 relative"
+                className="list-none link3 relative cursor-pointer"
+                onClick={() => setServiceDrop((prev) => !prev)}
               >
                 Services{" "}
                 <img
-                  onClick={() => setServiceDrop((prev) => !prev)}
                   src="/dropdown.png"
                   alt=">"
                   className={`max-w-full w-[18px] max-h-full ${
@@ -139,7 +139,7 @@ function Navbar() {
                 />
                 {serviceDrop && (
                   <div className="top-[40px] bg-white gap-3 absolute left-1/2 -translate-x-1/2 dropdown z-50 rounded-2xl w-fit h-fit whitespace-nowrap py-4 px-2 flex flex-col">
-                    <a
+                    {/* <a
                       href="/tax"
                       className="text-[#4d4d4d] hover:text-[#0F6089] hover:bg-[#0068FF14] p-0.5 rounded-md pl-1 hover:scale-105 transition-all duration-300 flex items-center gap-1"
                     >
@@ -152,7 +152,7 @@ function Navbar() {
                     >
                       <TaxSvg height="30" />
                       Goods & Service Tax(GST)
-                    </a>
+                    </a> */}
                     <a
                       href="/rbi"
                       className="text-[#4d4d4d] hover:text-[#0F6089] hover:bg-[#0068FF14] p-0.5 rounded-md pl-1 hover:scale-105 transition-all duration-300 flex items-center gap-1"
@@ -249,40 +249,10 @@ function Navbar() {
               >
                 Career
               </motion.a>
-              <motion.a
-                href="/contact"
-                variants={variants}
-                initial="rest"
-                whileHover="hover"
-                animate="rest"
-                transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                className="list-none link8 cursor-pointer"
-              >
-                Contact
-              </motion.a>
             </div>
           )}
         </AnimatePresence>
         <div className="flex items-center gap-2 justify-center">
-          {/* <svg
-            onClick={() => setSearch(true)}
-            width="24"
-            height="24"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="max-h-[70%] aspect-square cursor-pointer hidden md:block"
-          >
-            <path
-              opacity="0.2"
-              d="M24 14C24 15.9778 23.4135 17.9112 22.3147 19.5557C21.2159 21.2002 19.6541 22.4819 17.8268 23.2388C15.9996 23.9957 13.9889 24.377 12.0491 23.8079C10.1093 23.422 8.32746 22.4696 6.92894 21.0711C5.53041 19.6725 4.578 17.8907 4.19215 15.9509C3.8063 14.0111 4.00433 12.0004 4.76121 10.1732C5.51809 8.3459 6.79981 6.78412 8.4443 5.6853C10.0888 4.58649 12.0222 4 14 4C15.3132 4 16.6136 4.25866 17.8268 4.7612C19.0401 5.26375 20.1425 6.00035 21.0711 6.92893C21.9997 7.85752 22.7363 8.95991 23.2388 10.1732C23.7413 11.3864 24 12.6`68 24 14Z"
-              fill="#0F6089"
-            />
-            <path
-              d="M28.7075 27.2925L22.45 21.035C24.2672 18.8555 25.1742 16.0594 24.9823 13.2282C24.7904 10.397 23.5144 7.74878 21.4197 5.83448C19.3249 3.92017 16.5728 2.88715 13.7359 2.95033C10.8989 3.01351 8.19547 4.16801 6.18804 6.173667C4.18061 8.17932 3.02372 10.8817 2.95804 13.7186C2.89235 16.5555 3.92294 19.3086 5.83539 21.405C7.74785 23.5014 10.3949 24.7798 13.2259 24.9742C16.0569 25.1686 18.8539 24.2641 21.035 22.4487L27.2925 28.7075C27.3854 28.8004 27.4957 28.8741 27.6171 28.9244C27.7385 28.9747 27.8686 29.0006 28 29.0006C28.1314 29.0006 28.2615 28.9747 28.3829 28.9244C28.5043 28.8741 28.6146 28.8004 28.7075 28.7075C28.8004 28.6146 28.8741 28.5043 28.9244 28.3829C28.9747 28.2615 29.0006 28.1314 29.0006 28C29.0006 27.8686 28.9747 27.7385 28.9244 27.6171C28.8741 27.4957 28.8004 27.3854 28.7075 27.2925ZM5 14C5 12.22 5.52784 10.4799 6.51677 8.99987C7.5057 7.51982 8.91131 6.36627 10.5558 5.68508C12.2004 5.0039 14.01 4.82567 15.7558 5.17293C17.5016 5.5202 19.1053 6.37737 20.364 7.63604C21.6226 8.89471 22.4798 10.4984 22.8271 12.2442C23.1743 13.99 22.9961 15.7996 22.3149 17.4442C21.6337 19.0887 20.4802 20.4943 19.0001 21.4832C17.5201 22.4722 15.78 23 14 23C11.6139 22.9974 9.32621 22.0483 7.63896 20.361C5.95171 18.6738 5.00264 16.3861 5 14Z"
-              fill="#0F6089"
-            />
-          </svg> */}
           <button
             onClick={() => setIsOpen((prev) => !prev)}
             className="h-[40px] w-[40px] max-w-[60%] flex items-center justify-center md:hidden relative z-[60]"
@@ -292,7 +262,7 @@ function Navbar() {
           <SideMenu isOpen={isOpen} setIsOpen={setIsOpen} />
           <button
             onClick={() => navigate("/contact")}
-            className="hidden md:flex h-[70%] px-3 py-2 rounded-full max-w-[134px] group bg-[#262626] text-white font-semibold text-[16px] hover:shadow-[0_4px_32px_0_rgba(15,96,137,0.5)] duration-300 transition items-center gap-1 shadow-md"
+            className="hidden md:flex h-[70%] px-3 py-2 rounded-full max-w-[134px] group bg-[#0F6089] text-white font-semibold text-[16px] hover:shadow-[0_4px_32px_0_rgba(15,96,137,0.5)] duration-300 transition items-center gap-1 shadow-md cursor-pointer"
           >
             Contact
             <svg
@@ -300,7 +270,7 @@ function Navbar() {
               height="24"
               viewBox="0 0 24 24"
               fill="none"
-              className="group-hover:rotate-45 transition duration-300"
+              // className="group-hover:rotate-45 transition duration-300"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path

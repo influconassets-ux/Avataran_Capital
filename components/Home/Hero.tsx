@@ -28,14 +28,14 @@ export default function Hero() {
         {components.map((Comp, i) => (
           <div
             key={i}
-            className={`absolute inset-0 w-full h-full transition-opacity duration-700 ${i === index ? "z-20" : "z-10"
-              }`}
+            className={`absolute inset-0 w-full h-full transition-opacity duration-700 ${
+              i === index ? "z-20" : "z-10"
+            }`}
           >
             {i === index ? (
               <motion.div
-                key={`hero-${i}`}
-                initial={{ x: "100%", opacity: 1 }}
-                animate={{ x: 0, opacity: 1 }}
+                initial="hidden"
+                animate={i === index ? "visible" : "hidden"}
                 transition={{ duration: 1.5, ease: "easeOut" }}
                 className="absolute inset-0 w-full h-full"
               >

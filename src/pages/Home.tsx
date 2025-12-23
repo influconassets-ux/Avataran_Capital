@@ -2,7 +2,7 @@ import Hero from "../../components/Home/Hero";
 import Story from "../../components/Home/Story";
 import Globe from "../../components/Home/Globe";
 import People from "../../components/Home/People";
-import Consult from "../../components/Home/Consult";
+// import Consult from "../../components/Home/Consult";
 import WhatWeDo from "../../components/Home/WhatWeDo";
 import Edge from "../../components/Home/Edge";
 import Expertise from "../../components/Home/Expertise";
@@ -49,7 +49,7 @@ function Home() {
       <Team />
       <Globe />
       <People />
-      <Consult />
+      {/* <Consult /> */}
 
       <Work />
     </motion.div>

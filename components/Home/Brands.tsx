@@ -5,14 +5,19 @@ function Brands() {
   return (
     <section className="w-full min-h-[30vh] flex flex-col items-center h-fit gap-2 relative pb-[6vh] my-[5vh] px-4">
       <h2 className="text-[24px] leading-[130%] tracking-[-1] sm:text-[28px] md:text-[36px] lg:text-[40px] font-semibold text-center">
-      <SplitText text="Brands we have worked with" highlight={["Brands","worked"]} />
+        <SplitText
+          text="Companies That Trust Us"
+          highlight={["Brands", "worked"]}
+        />
       </h2>
-      <AnimatePara text='Check a list of some global brand who have collaborated with us' />
+      <AnimatePara text="Check a list of some global brand who have collaborated with us" />
       <div className="w-full flex flex-col gap-6 mt-[40px] md:mt-[60px]">
         {/* Carousel 1 */}
         <div className="overflow-hidden w-full">
-          <div className="flex gap-3 md:gap-4 w-fit animate-slide-left whitespace-nowrap"
-            style={{ transform: "translateX(0%)" }}>
+          <div
+            className="flex gap-3 md:gap-4 w-fit animate-slide-left whitespace-nowrap"
+            style={{ transform: "translateX(0%)" }}
+          >
             {Array.from({ length: 10 }).map((_, idx) => (
               <div
                 key={`brand1-${idx}`}
@@ -48,8 +53,10 @@ function Brands() {
         </div>
         {/* Carousel 2 */}
         <div className="overflow-hidden w-full">
-          <div className="flex gap-3 md:gap-4 animate-slide-right whitespace-nowrap w-fit"
-            style={{ transform: "translateX(-50%)" }}>
+          <div
+            className="flex gap-3 md:gap-4 animate-slide-right whitespace-nowrap w-fit"
+            style={{ transform: "translateX(-50%)" }}
+          >
             {Array.from({ length: 10 }).map((_, idx) => (
               <div
                 key={`brand2-${idx}`}
